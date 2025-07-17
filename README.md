@@ -1,1 +1,157 @@
-# panji-poetry
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panji Poetry</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: #f4f4f4;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #222;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #444;
+      color: white;
+      text-align: center;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .container {
+      padding: 20px;
+      max-width: 800px;
+      margin: auto;
+      background: white;
+    }
+    .poem {
+      margin-bottom: 40px;
+    }
+    .poem h3 {
+      color: #444;
+      margin-bottom: 5px;
+    }
+    .poem .author {
+      font-style: italic;
+      font-size: 0.9em;
+      color: #777;
+      margin-bottom: 10px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Panji Poetry</h1>
+    <p>"Menulis adalah caraku bernapas."</p>
+  </header>
+
+  <nav>
+    <a href="#home">Beranda</a>
+    <a href="#about">Tentang</a>
+    <a href="#poems">Karya Puisi</a>
+    <a href="#contact">Kontak</a>
+  </nav>
+
+  <div class="container">
+    <section id="home">
+      <h2>Selamat Datang!</h2>
+      <p>Ini adalah rumah dari karya-karya puisiku — tempat rasa, kata, dan jiwa bertemu.</p>
+    </section>
+
+    <section id="about">
+      <h2>Tentang Panji</h2>
+      <p>Saya Panji, seorang penulis puisi dari Yogyakarta. Saya menulis tentang cinta, luka, dan kehidupan sehari-hari dengan bahasa yang sederhana namun penuh makna.</p>
+    </section>
+
+    <section id="poems">
+      <h2>Karya Puisi</h2>
+
+      <div class="poem">
+        <h3>Teman Tapi Mencinta</h3>
+        <div class="author">(Ciptaan Dhimaz Panji Pratama)</div>
+        <p>
+          Kita duduk di bawah langit jogja,<br>
+          tertawa bersama, seolah dunia baik-baik saja.<br>
+          Kau bercerita tentang cinta dan luka,<br>
+          sedang aku, hanya diam — menyimpan rasa.<br><br>
+
+          Kupilih menjadi teman,<br>
+          karena itu yang membuatmu bertahan.<br>
+          Tapi tak kau lihat,<br>
+          di tiap tatapan — aku jatuh lebih dalam.<br><br>
+
+          Di dekatmu ku merasa nyaman<br>
+          seperti hujan yang lembut di langit jogja<br>
+          kau begitu unik<br>
+          seperti sudut-sudut di jalan malioboro yang tak pernah sama<br><br>
+
+          Aku mencintaimu —<br>
+          dalam senyap yang tak pernah selesai.<br>
+          Menjagamu dari balik tawa,<br>
+          meski hatiku sendiri yang usai.<br><br>
+
+          Jika suatu hari kau merasa yang sama,<br>
+          temuilah aku tanpa kata.<br>
+          Tapi jika tidak pun tak apa,<br>
+          biarlah aku tetap di sini —<br>
+          teman... tapi mencinta.
+        </p>
+      </div>
+
+      <div class="poem">
+        <h3>Jatuh Cinta di Solo</h3>
+        <div class="author">(Ciptaan Dhimaz Panji Pratama)</div>
+        <p>
+          Di suasana kota Solo<br>
+          Rindu menggantung di langit malam<br>
+          Menanti waktu untuk berpulang<br>
+          Di bawah indahnya mentari pagi yang menyambutku kala itu<br>
+          Penuh dengan harapan yang sederhana<br>
+          Hujan yang mulai membasahiku<br>
+          Membuatku sadar<br>
+          kota Solo begitu sederhana<br>
+          Seperti dia yang kutemui di sudut indah kota Solo<br><br>
+
+          Bisakah rindu ini tersampaikan?<br>
+          Terima kasih Solo<br>
+          Kau peluk aku dengan kenangan<br>
+          Suasanamu akan selalu kuingat<br>
+          Sampai jumpa<br>
+          Untuk dia yang kutemui di sudut kenangan<br>
+          Tempat rindu tak pernah padam
+        </p>
+      </div>
+
+    </section>
+
+    <section id="contact">
+      <h2>Kontak</h2>
+      <p>Email: panjipuisi@gmail.com</p>
+      <p>Instagram: @panjipratamad</p>
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Panji Poetry. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
